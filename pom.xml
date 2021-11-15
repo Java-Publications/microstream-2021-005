@@ -158,6 +158,11 @@
         </dependency>
         <dependency>
             <groupId>one.microstream</groupId>
+            <artifactId>microstream-persistence-binary-jdk17</artifactId>
+            <version>${microstream}</version>
+        </dependency>
+        <dependency>
+            <groupId>one.microstream</groupId>
             <artifactId>microstream-communication-binary</artifactId>
             <version>${microstream}</version>
         </dependency>

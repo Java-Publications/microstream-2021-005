@@ -20,6 +20,7 @@ public class Solution03 {
     //modify the root node
     Car car = createCar();
     rootNode.addCar(car);
+    storageManager.storeRoot();
     //get all cars with an Engine with 4 cylinders
     //this is the Query
     int sum = rootNode.SumOfCarsWithAmountOfCylinders(4);

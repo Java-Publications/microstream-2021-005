@@ -21,9 +21,9 @@ public class ServerNode {
           hostChannel.close();
         })
         .registerEntityTypes(Car.class)
-//        .registerEntityTypes(Engine.class)
-//        .registerEntityTypes(Cylinder.class)
-//        .registerEntityTypes(Wheel.class)
+        .registerEntityTypes(Engine.class)
+        .registerEntityTypes(Cylinder.class)
+        .registerEntityTypes(Wheel.class)
         .createHost();
     host.run();
   }
